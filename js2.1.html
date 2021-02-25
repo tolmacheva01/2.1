@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+       <script src="jquery-3.5.1.js"></script>
+       <script> 
+	      $(document).ready(function(){
+		   $("#btn1").click(function(){
+		    $(".europe").slideToggle("slow");
+		  });
+		   $("#btn2").click(function(){
+		    $(".asia").slideToggle("slow");
+		  });	
+           $("#btn3").click(function(){
+		    $(".africa").slideToggle("slow");
+		  });
+           $("#btn4").click(function(){
+		    $(".america").slideToggle("slow");
+		  });
+        });		  
+       </script>
+  </head>
+  <body>
+    <center>Когда все галочки стоят список пуст.<br></center>
+	Европа<input type="checkbox" id="btn1"
+	       value="Европа"/><br>
+	Азия<input type="checkbox" id="btn2"
+	       value="Азия"/><br>
+	Африка<input type="checkbox" id="btn3"
+	       value="Африка"/><br>
+	Америка<input type="checkbox" id="btn4"
+	       value="Америка"/><br>	  
+
+	<p class="asia">Армения</p>	
+	<p class="asia">Вьетнам</p>
+	<p class="asia">Лаос</p>
+	<p class="asia">Монголия</p>
+	<p class="asia">Афганистан</p>
+	<p class="america">Гондурас</p>
+	<p class="america">Гватемала</p>
+	<p class="america">Панама</p>
+	<p class="america">Венесуэла</p>
+	<p class="america">Эквадор</p>
+	<p class="africa">Егопет</p>
+	<p class="africa">Гана</p>
+	<p class="africa">Ангола</p>
+	<p class="africa">Гвинея</p>
+	<p class="africa">Джибути</p>
+	<p class="europe">Франция</p>
+	<p class="europe">Германия</p>
+	<p class="europe">Литва</p>
+	<p class="europe">Италия</p>
+	<p class="europe">Греция</p>
+  </body> 
+</html>
